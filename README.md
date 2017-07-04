@@ -1,6 +1,6 @@
 # About
 
-Simple script which generates the output file based on Jinja2 template and config file
+Simple script which generates the output file based on [Jinja2](http://jinja.pocoo.org/) template and config file
 
 
 ## Install
@@ -21,6 +21,11 @@ pip install -r requirements.txt
 OS=debian:latest
 MAINTAINER=User Name <user@example.com>
 ARG1=azaza
+
+[production]
+OS=centos:latest
+MAINTAINER=User Name <user@example.com>
+ARG1=ouchouch
 ```
 
 ```bash
