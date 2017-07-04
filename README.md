@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Usage
 ```bash
 ./generate.py --help
-./generate.py -c sample.config -t template.j2 -o Dockerfile -s dev
+./generate.py -c example/sample_config.ini -t example/dockerfile_template.j2 -o example/Dockerfile -s dev
 ```
 
 ## Example
